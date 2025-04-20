@@ -1,5 +1,4 @@
 import {ArrowRight, Check, ChevronsUpDown, Circle, Copy, Edit, ExternalLink, File, HelpCircle, Home, Loader2, Mail, MessageSquare, Moon, Plus, PlusCircle, Search, Server, Settings, Share2, Shield, Sun, Trash, User, X, Workflow, Mic, Play} from 'lucide-react';
-import { Stop } from 'lucide-react';
 
 const Icons = {
   arrowRight: ArrowRight,
@@ -31,7 +30,6 @@ const Icons = {
   user: User,
   mic: Mic,
   play: Play,
-  stop: Stop,
 };
 
 export {Icons};
