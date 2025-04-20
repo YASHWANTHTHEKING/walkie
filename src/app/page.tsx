@@ -111,7 +111,7 @@ export default function Home() {
             disabled={isRecording || isNoiseReducing}
             className="bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-md shadow-md"
           >
-            {isPlaying ? <Icons.stop className="h-4 w-4" /> : <Play className="h-4 w-4" />}
+            {isPlaying ? <Icons.play className="h-4 w-4" /> : <Play className="h-4 w-4" />}
             {isPlaying ? "Stop" : "Play"}
           </Button>
 
@@ -127,4 +127,5 @@ export default function Home() {
     </div>
   );
 }
+
 
